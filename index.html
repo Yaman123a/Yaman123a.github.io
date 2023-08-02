@@ -6,8 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RAS Media & Entertainment PVT.LTD.</title>
-
+  <script>
+    function showMessage() {
+      event.preventDefault();
   
+      alert("Thank you! Your message has been sent.");
+  
+  
+      return false;
+    }
+  </script>
 
   <!-- 
     - favicon
@@ -38,7 +46,7 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">𝑹𝑨𝑺</a>
+      <a href="#" class="logo" id="glowinglogo">𝑹𝑨𝑺</a>
 
       <nav class="navbar container" data-navbar="">
         <ul class="navbar-list">
@@ -345,7 +353,7 @@
             aliqua.
           </p>
 
-     <form action="https://formspree.io/f/xvojzplg" method="POST"class="contact-form">
+          <form action="https://formspree.io/f/xvojzplg" method="POST"  class="contact-form">
             <div class="input-wrapper">
                          <input type="text" name="name" aria-label="name" placeholder="Your name*" required class="input-field">
            
@@ -370,8 +378,9 @@
                              Policy</a>
                          </label>
                        </div>
-  <button type="submit">Send</button>
-</form>
+                       <button class="button-85"  role="submit">Send</button>
+                      </form>
+     
         </div>
       </section>
 
@@ -407,8 +416,8 @@
 
               <h3 class="h3 card-title">Mail Here</h3>
 
-              <a href="mailto:info@digi.com" class="card-link">info@ras.com</a>
-              <a href="mailto:info@digie.com" class="card-link">info@rase.com</a>
+              <a href="mailto:info@digi.com" class="card-link">info@digi.com</a>
+              <a href="mailto:info@digie.com" class="card-link">info@digie.com</a>
 
             </div>
 
@@ -473,7 +482,13 @@
         </li>
 
       </ul>
-
+      <br>
+      <style>
+        #copyright{
+          text-align: center;
+        }
+      </style>
+      <p id="copyright">&copy;All rights reserved. Made by Yaman Jain</p>
 
     </div>
   </footer>
